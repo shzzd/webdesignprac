@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title> <!--Cascading Style Sheet(CSS)-->
+    <!--<link rel="stylesheet" href="style.css">-->
+    <style>
+        h1{
+            color: cornsilk;
+            font-size: 25px;
+            float: left;
+        }
+        h2{
+            text-align: center;
+            color: cornsilk;
+        }
+        h3{
+            text-align: center;
+            color: cornsilk;
+            font-weight: 1000;
+            font-size: 23px;
+        }
+        .logo{
+            padding: 15px 5px 0px 0px;
+            height: 27px;
+            width: 35px;
+            float: left;
+        }
+        .n1{
+            border:1px solid cornsilk;
+            border-radius: 50px;
+            width: 20%;
+            height: 10%;
+            margin-left: 25%;
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.678);
+            
+        }
+        .n2{
+            border:1px solid cornsilk;
+            border-radius: 50px;
+            width: 20%;
+            height: 10%;
+            margin-left: 8%;
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.678);
+        }
+        .nsu{
+            border: 2px solid gray;
+            width: justify-self start;
+            padding: 0px 5px 0px 10px;
+            background-color: rgba(0, 0, 0, 0.664);
+        }
+        a{
+            color: cornsilk;
+        }
+        .i1{
+            margin-left: 26%;
+            float: left;
+        }
+        .i2{
+            margin-left: 10.8%;
+            display: inline-block;
+        }
+        .im1{
+            width: 240px;
+            height: 340px;
+
+            opacity: 1;
+            display: block;
+            transition: .5s ease;
+            backface-visibility: hidden;
+            
+        }
+        .im2{
+            width: 240px;
+            height: 340px;
+            
+            opacity: 1;
+            display: block;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .middle1 {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 63%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .i1:hover .im1 {
+            opacity: 0.3;
+        }
+
+        .i1:hover .middle {
+            opacity: 1;
+        }
+
+        .i2:hover .im2 {
+            opacity: 0.3;
+        }
+
+        .i2:hover .middle1 {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: rgba(0, 0, 0, 0.603);
+            color: white;
+            font-size: 25px;
+            padding: 16px 32px;
+            text-align: center;
+        }
+
+        .text1 {
+            background-color: rgba(0, 0, 0, 0.603);
+            color: white;
+            font-size: 25px;
+            padding: 16px 32px;
+            text-align: center;
+        }
+
+        .bot{
+            border: 1px solid black;
+            background-color: rgba(0, 0, 0, 0.795);
+            width: 100%;
+            
+        }
+        b{
+            color:cornsilk;
+            text-align: right;
+        }
+        p{
+            text-align: right;
+            color: cornsilk;
+            padding-right: 5px;
+        }
+    .bottext{
+        font-style: italic;
+    }
+    </style>
+</head>
+<body background="images/g.jpg">
+
+    <div class="nsu">
+        <img class="logo" src="images/f.jpg">
+        <h1> NSU Fitness Club  </h1>
+            <p><a href="www.nsu.com">Faq</a>
+                <a href="www.northsouth.edu">Login</a></p>
+    </div>
+
+    <h2>WELCOME MY FRIEND</h2>
+
+    <div>
+    <div class="n1">
+        <h3>Male</h3>
+    </div>
+    <div class="n2">
+        <h3>Female</h3>
+    </div></div>
+
+    <div>
+    <div class="i1">
+        <img class="im1" src="images/1.jpg">
+        <div class="middle">
+            <div class="text">Lets go boy</div>
+        </div>
+    </div>
+    <div class="i2">
+        <img class="im2" src="images/55.jpg">
+        <div class="middle1">
+            <div class="text1">Lets go girl</div>
+        </div>
+    </div></div>
+
+    <div>
+        <div class="bot">
+            <p class="bottext">Developed & maintained by - Shazzadur Rahman</p>
+        </div>
+    </div>
+    
+</body>
+</html>
